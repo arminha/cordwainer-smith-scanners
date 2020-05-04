@@ -5,13 +5,13 @@ Martel was angry. He did not even adjust his blood away from anger. He stamped a
 
 "I tell you, I must cranch. I have to cranch. It's my worry, isn't it?"
 
-When Lûci answered, he saw only a part of her words as he read her lips: "Darling . . . you're my husband . . . right to love you . . . dangerous . . . do it . . . dangerous . . . wait. . . ."
+When Lûci answered, he saw only a part of her words as he read her lips: "Darling ... you're my husband ... right to love you ... dangerous ... do it ... dangerous ... wait... ."
 
 He faced her, but put sound in his voice, letting the blare hurt her again: "I tell you, I am going to cranch."
 
 Catching her expression, he became rueful and a little tender: "Can't you understand what it means to me? To get out of this horrible prison in my own head? To be a man again—hearing your voice, smelling smoke? To feel again—to feel my feet on the ground, to feel the air move against my face? Don't you know what it means?"
 
-Her wide-eyed worrisome concern thrust him back into pure annoyance. He read only a few of the words as her lips moved: ". . . love you . . . your own good . . . don't you think I want you to be human? . . . your own good . . . too much . . . he said . . . they said . . ."
+Her wide-eyed worrisome concern thrust him back into pure annoyance. He read only a few of the words as her lips moved: "... love you ... your own good ... don't you think I want you to be human? ... your own good ... too much ... he said ... they said ..."
 
 When he roared at her, he realized that his voice must be particularly bad. He knew that the sound hurt her no less than did the words: "Do you think I wanted you to marry a Scanner? Didn't I tell you we're almost as low as the habermans? We're dead, I tell you. We've got to be dead to do our work. How can anybody go to the Up-and-Out? Can you dream what raw Space is? I warned you. But you married me. All right, you married a man. Please, darling, let me be a man. Let me hear your voice, let me feel the warmth of being alive, of being human. Let me!"
 

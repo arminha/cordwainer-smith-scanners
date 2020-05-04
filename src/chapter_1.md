@@ -4,7 +4,7 @@ I
 When he awakened under the wire, he did not feel as though he had just cranched. Even though it was the second cranching within the week, he felt fit. He lay in the chair. His ears drank in the sound of air touching things in the room. He heard Lûci breathing in the next room, where she was hanging up the wire to cool. He smelt the thousand-and-one smells that are in anybody's room: the crisp freshness of the germ-burner, the sour-sweet tang of the humidifier, the odor of the dinner they had just eaten, the smells of clothes, furniture, of people themselves. All these were pure delight. He sang a phrase or two of his favorite song:
 
     Here's to the haberman, Up and Out!
-    Up—oh!—and Out—oh!—Up and Out! . . .
+    Up—oh!—and Out—oh!—Up and Out! ...
 
 He heard Lûci chuckle in the next room. He gloated over the sounds of her dress as she swished to the doorway.
 
@@ -24,7 +24,7 @@ Her gaiety still forced, she said: "Come on, darling, let's have a good time. I 
 
 "Which what, you old darling?"
 
-He slipped his hand over her shoulders as he limped out of the room. (He could never go back to feeling the floor beneath his feet, feeling the air against his face, without being bewildered and clumsy. As if cranching was real, and being a haberman was a bad dream. But he was a haberman, and a Scanner.) "You know what I meant, Lûci . . . the smells, which you have. Which one did you like, on the record?"
+He slipped his hand over her shoulders as he limped out of the room. (He could never go back to feeling the floor beneath his feet, feeling the air against his face, without being bewildered and clumsy. As if cranching was real, and being a haberman was a bad dream. But he was a haberman, and a Scanner.) "You know what I meant, Lûci ... the smells, which you have. Which one did you like, on the record?"
 
 "Well-l-l," said she, judiciously, "there were some lamb chops that were the strangest things—"
 
@@ -62,7 +62,7 @@ He knew what had hit him. Amid the roar of his own pulse, he knew. In the nightm
 
 All except the smell.
 
-And here the smell was all over again—the smell of meat-with-fire . . .
+And here the smell was all over again—the smell of meat-with-fire ...
 
 Lûci looked at him with wifely concern. She obviously thought he had cranched too much, and was about to haberman back. She tried to be cheerful: "You'd better rest, honey."
 
@@ -124,7 +124,7 @@ The lips moved solemnly: "Top emergency."
 
 "Top emergency."
 
-"Sir, don't you understand?" Martel mouthed his words, so he could be sure that Vomact followed. "I . . . am . . . under . . . the . . . wire. Unfit . . . for . . . Space!"
+"Sir, don't you understand?" Martel mouthed his words, so he could be sure that Vomact followed. "I ... am ... under ... the ... wire. Unfit ... for ... Space!"
 
 Vomact repeated: "Top emergency. Report to your central Tie-in."
 

@@ -123,7 +123,7 @@ Chang's eyes flashed across Martel's face as Chang answered: "No. No. No."
 
 Martel stopped speaking in mid-movement. He suddenly took the stance: I thank you, Brother, and I depart.
 
-At the window he turned and faced the room. He saw that Vomact's eyes were upon him. He gave the stance, I thank you, Brother, and I depart, and added the flourish of respect which is shown when Seniors are present. Vomact caught the sign, and Martel could see the cruel lips move. He thought he saw the words ". . . take good care of yourself . . ." but did not wait to inquire. He stepped backward and dropped out the window.
+At the window he turned and faced the room. He saw that Vomact's eyes were upon him. He gave the stance, I thank you, Brother, and I depart, and added the flourish of respect which is shown when Seniors are present. Vomact caught the sign, and Martel could see the cruel lips move. He thought he saw the words "... take good care of yourself ..." but did not wait to inquire. He stepped backward and dropped out the window.
 
 Once below the window and out of sight, he adjusted his aircoat to maximum speed. He swam lazily in the air, scanning himself thoroughly, and adjusting his adrenal intake down. He then made the movement of release, and felt the cold air rush past his face like running water.
 

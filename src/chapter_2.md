@@ -53,7 +53,7 @@ Chang broke away from his friend and came over, his half-Chinese face gleaming i
 
 "I practiced with soundtracks. Funny you noticed it. I think I am the only Scanner in or between the Earths who can pass for an Ordinary Man. Mirrors and soundtracks. I found out how to act."
 
-"But you don't . . . ?"
+"But you don't ...?"
 
 "No. I don't feel, or taste, or hear, or smell things, any more than you do. Talking doesn't do me much good. But I notice that it cheers up the people around me."
 
@@ -91,7 +91,7 @@ All clear. Follow my words.
 
 Martel noticed that he alone relaxed. The others could not know the meaning of relaxation with the minds blocked off up there in their skulls, connected only with the eyes, and the rest of the body connected with the mind only by controlling non-sensory nerves and the instrument boxes on their chests. Martel realized that, cranched as he was, he expected to hear Vomact's voice: the Senior had been talking for some time. No sound escaped his lips. (Vomact never bothered with sound.)
 
-". . . and when the first men to go Up and Out went to the Moon, what did they find?"
+"... and when the first men to go Up and Out went to the Moon, what did they find?"
 
 "Nothing," responded the silent chorus of lips.
 

@@ -173,6 +173,6 @@ Parizianski made the sign: You are unfit for duty, and I will take over.
 
 Martel thought, For the first time in the world! as he reached over and twisted Parizianski's Brainbox up to Overload. Parizianski's eyes glittered in terror and understanding. His body began to drift down toward the floor.
 
-Martel had just strength enough to reach his own Chestbox. As he faded into Haberman or death, he knew not which, he felt his fingers turning on the control of speed, turning down. He tried to speak, to say, "Get a Scanner, I need help, get a Scanner . . ."
+Martel had just strength enough to reach his own Chestbox. As he faded into Haberman or death, he knew not which, he felt his fingers turning on the control of speed, turning down. He tried to speak, to say, "Get a Scanner, I need help, get a Scanner ..."
 
 But the darkness rose about him, and the numb silence clasped him.

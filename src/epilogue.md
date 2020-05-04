@@ -6,7 +6,7 @@ He spoke weakly: "Still cranched? Alive?"
 
 Another face swam into the blur beside Lûci's. It was Adam Stone. His deep voice rang across immensities of Space before coming to Mattel's hearing. Martel tried to read Stone's lips, but could not make them out. He went back to listening to the voice:
 
-". . . not cranched. Do you understand me? Not cranched!"
+"... not cranched. Do you understand me? Not cranched!"
 
 Martel tried to say: "But I can hear! I can feel!" The others got his sense if not his words.
 
