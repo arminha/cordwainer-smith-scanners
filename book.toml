@@ -7,7 +7,6 @@ title = "Scanners Live in Vain"
 
 [output.html]
 curly-quotes = true
-no-section-label = true
 
 [output.epub]
 additional-css = ["../../src/style.css"]
