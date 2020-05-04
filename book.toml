@@ -1,0 +1,14 @@
+[book]
+authors = ["Cordwainer Smith"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Scanners Live in Vain"
+
+[output.html]
+curly-quotes = true
+no-section-label = true
+
+[output.epub]
+additional-css = ["../../src/style.css"]
+use-default-css = false

@@ -8,6 +8,6 @@ This content is based on [Scanners Live in Vain](https://archive.org/details/Sca
 Building
 --------
 
-It uses [md2epub](https://github.com/bencrowder/md2epub) of Ben Crowder to create an ePub book from a list of Markdown files.
+It uses [mdBook](https://github.com/rust-lang/mdBook) and [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) to create an ePub book from a list of Markdown files.
 
-Running `./md2epub.py scanners.book` will create the ebook as `scanners.epub`.
+Running `mdbook build` will create the ebook as  in the `book/epub` folder.
