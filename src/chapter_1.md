@@ -3,8 +3,8 @@ I
 
 When he awakened under the wire, he did not feel as though he had just cranched. Even though it was the second cranching within the week, he felt fit. He lay in the chair. His ears drank in the sound of air touching things in the room. He heard Lûci breathing in the next room, where she was hanging up the wire to cool. He smelt the thousand-and-one smells that are in anybody's room: the crisp freshness of the germ-burner, the sour-sweet tang of the humidifier, the odor of the dinner they had just eaten, the smells of clothes, furniture, of people themselves. All these were pure delight. He sang a phrase or two of his favorite song:
 
-    Here's to the haberman, Up and Out!
-    Up—oh!—and Out—oh!—Up and Out! ...
+> Here's to the haberman, Up and Out!</br>
+> Up—oh!—and Out—oh!—Up and Out! ...
 
 He heard Lûci chuckle in the next room. He gloated over the sounds of her dress as she swished to the doorway.
 
