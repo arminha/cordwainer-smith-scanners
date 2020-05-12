@@ -8,6 +8,9 @@ This content is based on [Scanners Live in Vain](https://archive.org/details/Sca
 Building
 --------
 
-It uses [mdBook](https://github.com/rust-lang/mdBook) and [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) to create an ePub book from a list of Markdown files.
+It uses [mdBook](https://github.com/rust-lang/mdBook),
+[mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) and
+[mdbook-curly-quotes](https://github.com/arminha/mdbook-curly-quotes) to create
+an ePub book from a list of Markdown files.
 
 Running `mdbook build` will create the ebook as  in the `book/epub` folder.
