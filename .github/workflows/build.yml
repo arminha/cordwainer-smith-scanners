@@ -22,6 +22,7 @@ jobs:
           override: true
 
       - name: Cache mdBook binaries
+        id: cache
         uses: actions/cache@v2
         with:
           path: |
@@ -31,6 +32,7 @@ jobs:
           key: ${{ runner.os }}-mdbook-${{ matrix.rust }}-${{ hashFiles('ci/install_mdbook.sh') }}
 
       - name: Install mdBook
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           ./ci/install_mdbook.sh
 
