@@ -26,7 +26,8 @@ jobs:
         with:
           path: |
             ~/.cargo/bin/mdbook*
-            ~/.cargo/registry
+            ~/.cargo/.crates2.json
+            ~/.cargo/.crates.toml
           key: ${{ runner.os }}-mdbook-${{ matrix.rust }}-${{ hashFiles('ci/install_mdbook.sh') }}
 
       - name: Install mdBook
