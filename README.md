@@ -1,7 +1,7 @@
 Scanners Live in Vain *by Cordwainer Smith*
 ===========================================
 
-[![Build Status](https://travis-ci.org/arminha/cordwainer-smith-scanners.svg?branch=master)](https://travis-ci.org/arminha/cordwainer-smith-scanners)
+[![build](https://github.com/arminha/cordwainer-smith-scanners/workflows/build/badge.svg)](https://github.com/arminha/cordwainer-smith-scanners/actions?query=workflow%3Abuild)
 
 Sources and scripts to create an ebook of [Scanners Live in Vain](https://en.wikipedia.org/wiki/Scanners_Live_in_Vain) by Cordwainer Smith.
 
