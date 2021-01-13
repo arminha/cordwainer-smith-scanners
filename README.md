@@ -1,5 +1,4 @@
-Scanners Live in Vain *by Cordwainer Smith*
-===========================================
+# Scanners Live in Vain *by Cordwainer Smith*
 
 [![build](https://github.com/arminha/cordwainer-smith-scanners/workflows/build/badge.svg)](https://github.com/arminha/cordwainer-smith-scanners/actions?query=workflow%3Abuild)
 
@@ -7,8 +6,7 @@ Sources and scripts to create an ebook of [Scanners Live in Vain](https://en.wik
 
 This content is based on [Scanners Live in Vain](https://archive.org/details/ScannersLiveInVain) at the Internet Archive.
 
-Building
---------
+## Building
 
 It uses [mdBook](https://github.com/rust-lang/mdBook),
 [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) and
