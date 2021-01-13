@@ -1,0 +1,37 @@
+on:
+  push:
+  pull_request:
+
+name: build
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rust:
+          - 1.49.0
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Install toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: ${{ matrix.rust }}
+          override: true
+
+      - name: Cache mdBook binaries
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cargo/bin/mdbook*
+          key: ${{ runner.os }}-mdbook-${{ matrix.rust }}-${{ hashFiles('ci/install_mdbook.sh') }}
+
+      - name: Install mdBook
+        run: |
+          ./ci/install_mdbook.sh
+
+      - name: Build book
+        run: |
+          mdbook build
