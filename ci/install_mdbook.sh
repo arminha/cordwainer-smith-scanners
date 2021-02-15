@@ -14,15 +14,16 @@ is_cargo_crate_installed() {
 install_cargo_crate() {
   name=$1
   version=$2
+  flags=$3
   if is_cargo_crate_installed $name $version
   then
     echo "$name version $version is already installed"
   else
     echo "installing $name version $version..."
-    cargo install --vers "=$version" $name
+    cargo install $flags --vers "=$version" $name
   fi
 }
 
-install_cargo_crate mdbook $MDBOOK_VERSION
+install_cargo_crate mdbook $MDBOOK_VERSION '--no-default-features --features output'
 install_cargo_crate mdbook-epub $MDBOOK_EPUB_VERSION
 install_cargo_crate mdbook-curly-quotes $MDBOOK_CURLY_QUOTES_VERSION
