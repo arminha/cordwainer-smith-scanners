@@ -1,8 +1,7 @@
 #!/bin/sh
 
-MDBOOK_VERSION=0.3.7
-MDBOOK_EPUB_VERSION=0.3.0
-MDBOOK_CURLY_QUOTES_VERSION=0.3.0
+MDBOOK_VERSION=0.4.34
+MDBOOK_EPUB_VERSION=0.4.34
 
 is_cargo_crate_installed() {
   name=$1
@@ -26,4 +25,3 @@ install_cargo_crate() {
 
 install_cargo_crate mdbook $MDBOOK_VERSION '--no-default-features --features output'
 install_cargo_crate mdbook-epub $MDBOOK_EPUB_VERSION
-install_cargo_crate mdbook-curly-quotes $MDBOOK_CURLY_QUOTES_VERSION

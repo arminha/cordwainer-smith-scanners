@@ -5,12 +5,10 @@ multilingual = false
 src = "src"
 title = "Scanners Live in Vain"
 
-[preprocessor.curly-quotes]
-renderer = ["epub"]
-
 [output.html]
 curly-quotes = true
 
 [output.epub]
-additional-css = ["../../src/style.css"]
+additional-css = ["src/style.css"]
 use-default-css = false
+curly-quotes = true

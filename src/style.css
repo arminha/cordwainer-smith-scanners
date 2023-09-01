@@ -1,397 +1,470 @@
-body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  padding: 30px;
-  color: #333;
+/* BB eBooks BoilerPlate EPUB */
+/* Modify as Needed */
+/* NOT SUITABLE for Kindle */
+/* visit us @ http://bbebooksthailand.com/developers.html */
+
+/* This adds margins around every page to stop ADE's line numbers from being superimposed over content  */
+@page {
+    margin: 10px;
 }
 
-body > *:first-child {
-  margin-top: 0 !important;
+/*===Reset code to prevent cross-reader strangeness===*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-body > *:last-child {
-  margin-bottom: 0 !important;
+ol,
+ul,
+li,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 a {
-  color: #4183C4;
-  text-decoration: none;
+    font-size: 1.0em;
+}
+/* unvisited link */
+a:link {
 }
 
-a.absent {
-  color: #cc0000;
+/* visited link */
+a:visited {
 }
 
-a.anchor {
-  display: block;
-  padding-left: 30px;
-  margin-left: -30px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
+/* mouse over link */
+a:hover {
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  cursor: text;
-  position: relative;
+/* selected link */
+a:active {
 }
 
-h2:first-child, h1:first-child, h1:first-child + h2, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
-  margin-top: 0;
-  padding-top: 0;
+/*===GENERAL PRESENTATION===*/
+/*===Body Presentation and Margins===*/
+/* Text alignment is still a matter of debate. Feel free to change to text-align: left; */
+body {
+    margin: 1em;
+    text-align: justify;
+    line-height: 120%;
 }
 
-h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  text-decoration: none;
-}
 
-h1 tt, h1 code {
-  font-size: inherit;
-}
-
-h2 tt, h2 code {
-  font-size: inherit;
-}
-
-h3 tt, h3 code {
-  font-size: inherit;
-}
-
-h4 tt, h4 code {
-  font-size: inherit;
-}
-
-h5 tt, h5 code {
-  font-size: inherit;
-}
-
-h6 tt, h6 code {
-  font-size: inherit;
-}
+/*===Headings===*/
+/* After page breaks, eReaders sometimes do not render margins above the content. Adjusting padding-top can help */
 
 h1 {
-  font-size: 28px;
-  color: black;
+    text-indent: 0;
+    text-align: center;
+    margin: 8px 0 0 0;
+    font-size: 2.0em;
+    font-weight: bold;
+    page-break-before: always;
+    line-height: 150%;
+    /*gets squished otherwise on ADE */
 }
 
 h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cccccc;
-  color: black;
+    text-indent: 0;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    page-break-before: always;
+    line-height: 135%;
+    /*get squished otherwise on ADE */
 }
 
 h3 {
-  font-size: 18px;
+    text-indent: 0;
+    text-align: left;
+    margin: 8px 0 6px 0;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 h4 {
-  font-size: 16px;
+    text-indent: 0;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 8px 0 6px 0;
 }
 
 h5 {
-  font-size: 14px;
+    text-indent: 0;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 8px 0 6px 0;
 }
 
 h6 {
-  color: #777777;
-  font-size: 14px;
+    text-indent: 0;
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin: 8px 0 6px 0;
 }
 
-blockquote, table, pre {
-  margin: 15px 0;
-  text-align: justify;
+
+/* Hyphen and pagination Fixer */
+/* Note: Do not try on the Kindle, it does not recognize the hyphens property */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    -webkit-hyphens: none !important;
+    hyphens: none;
+    page-break-after: avoid;
+    page-break-inside: avoid;
 }
 
-p, ul, ol, dl, li {
-  margin: 0px 0;
-  text-align: justify;
-  text-indent: 1.5em;
+
+/*===Paragraph Elements===*/
+/* Margins are usually added on the top, left, and right, but not on the bottom to prevent certain eReaders not collapsing white space properly */
+/*first-line indent paragraph for fiction*/
+
+p {
+    font-size: 1.0em;
+    text-indent: 0;
+    margin: 1em 0 0 0;
+    widows: 2;
+    orphans: 2;
 }
 
-h1 + p, h3 + p {
-  text-indent: 0em;
-}
 
-hr {
-  border: 0 none;
-  color: #cccccc;
-  height: 4px;
-  padding: 0;
+/* block type paragraph for non-fiction */
+p code {
+    text-indent: 0;
+    margin: 1.0em 0 0 0;
+    overflow-x: auto;
+    background: #f1f1f1;
+    color: #484848;
+    padding: 0.2em;
 }
-
-body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-body > h1:first-child + h2 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-  margin-top: 0;
-}
-
-li p.first {
-  display: inline-block;
-}
-
-ul, ol {
-  padding-left: 30px;
-}
-
-ul :first-child, ol :first-child {
-  margin-top: 0;
-}
-
-ul :last-child, ol :last-child {
-  margin-bottom: 0;
-}
-
-dl {
-  padding: 0;
-}
-
-dl dt {
-  font-size: 14px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0;
-  margin: 15px 0 5px;
-}
-
-dl dt:first-child {
-  padding: 0;
-}
-
-dl dt > :first-child {
-  margin-top: 0;
-}
-
-dl dt > :last-child {
-  margin-bottom: 0;
-}
-
-dl dd {
-  margin: 0 0 15px;
-  padding: 0 15px;
-}
-
-dl dd > :first-child {
-  margin-top: 0;
-}
-
-dl dd > :last-child {
-  margin-bottom: 0;
-}
-
-blockquote {
-  border-left: 4px solid #dddddd;
-  padding: 0 15px;
-  color: #777777;
-}
-
-blockquote > :first-child {
-  margin-top: 0;
-}
-
-blockquote > :last-child {
-  margin-bottom: 0;
-}
-
-table {
-  padding: 0;
-}
-table tr {
-  border-top: 1px solid #cccccc;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
-
-table tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-table tr th {
-  font-weight: bold;
-  border: 1px solid #cccccc;
-  text-align: left;
-  margin: 0;
-  padding: 6px 13px;
-}
-
-table tr td {
-  border: 1px solid #cccccc;
-  text-align: left;
-  margin: 0;
-  padding: 6px 13px;
-}
-
-table tr th :first-child, table tr td :first-child {
-  margin-top: 0;
-}
-
-table tr th :last-child, table tr td :last-child {
-  margin-bottom: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-span.frame {
-  display: block;
-  overflow: hidden;
-}
-
-span.frame > span {
-  border: 1px solid #dddddd;
-  display: block;
-  float: left;
-  overflow: hidden;
-  margin: 13px 0 0;
-  padding: 7px;
-  width: auto;
-}
-
-span.frame span img {
-  display: block;
-  float: left;
-}
-
-span.frame span span {
-  clear: both;
-  color: #333333;
-  display: block;
-  padding: 5px 0 0;
-}
-
-span.align-center {
-  display: block;
-  overflow: hidden;
-  clear: both;
-}
-
-span.align-center > span {
-  display: block;
-  overflow: hidden;
-  margin: 13px auto 0;
-  text-align: center;
-}
-
-span.align-center span img {
-  margin: 0 auto;
-  text-align: center;
-}
-
-span.align-right {
-  display: block;
-  overflow: hidden;
-  clear: both;
-}
-
-span.align-right > span {
-  display: block;
-  overflow: hidden;
-  margin: 13px 0 0;
-  text-align: right;
-}
-
-span.align-right span img {
-  margin: 0;
-  text-align: right;
-}
-
-span.float-left {
-  display: block;
-  margin-right: 13px;
-  overflow: hidden;
-  float: left;
-}
-
-span.float-left span {
-  margin: 13px 0 0;
-}
-
-span.float-right {
-  display: block;
-  margin-left: 13px;
-  overflow: hidden;
-  float: right;
-}
-
-span.float-right > span {
-  display: block;
-  overflow: hidden;
-  margin: 13px auto 0;
-  text-align: right;
-}
-
-code, tt {
-  margin: 0 2px;
-  padding: 0 5px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px;
-}
-
-pre code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent;
-}
-
-.highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px;
-}
-
 pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+pre code {
+    display: block;
+    overflow-x: auto;
+    background: #f1f1f1;
+    color: #373737;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    margin-left: 0.5em;
+}
+pre code.language-console {
+    color: #373737;
+}
+pre code.language-toml {
+    color: #000000;
+}
+pre code.language-rust {
+    color: #000000;
 }
 
-pre code, pre tt {
-  background-color: transparent;
-  border: none;
+span.caption {
+    font-size: 1.0em;
+    font-weight: 600;
+    line-height: 1.45em;
+}
+
+/* for centered text and wrappers on images */
+p.centered {
+    text-indent: 0;
+    margin: 1.0em 0 0 0;
+    text-align: center;
+}
+
+
+/* section Breaks (can use centered-style for non-fiction) */
+p.centeredbreak {
+    text-indent: 0;
+    margin: 1.0em 0 1.0em 0;
+    text-align: center;
+}
+
+
+/* First sentence in chapters following heading */
+p.texttop {
+    margin: 1.5em 0 0 0;
+    text-indent: 0;
+}
+
+
+/* Use for second sentence to clear drop cap's float */
+p.clearit {
+    clear: both;
+}
+
+
+/* 1st level TOC */
+p.toctext {
+    margin: 0 0 0 1.5em;
+    text-indent: 0;
+}
+
+
+/* 2nd level TOC */
+p.toctext2 {
+    margin: 0 0 0 2.5em;
+    text-indent: 0;
+}
+
+
+/*==LISTS==*/
+ul {
+    margin: 1em 0 0 2em;
+    text-align: left;
+}
+
+ol {
+    margin: 1em 0 0 2em;
+    text-align: left;
+}
+ul li code {
+    overflow-x: auto;
+    background: #f1f1f1;
+    color: #373737;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+
+
+/*===IN-LINE STYLES===*/
+/* Recommend avoiding use of <b>, <i>, and <u>. Use span tags instead */
+span.i {
+    font-style: italic;
+}
+
+span.b {
+    font-weight: bold;
+}
+
+span.u {
+    text-decoration: underline;
+}
+
+span.st {
+    text-decoration: line-through;
+}
+
+
+/*==in-line combinations==*/
+/* Using something like <span class="i b">... may seem okay, but it causes problems on some eReaders */
+span.ib {
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.iu {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+span.bu {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span.ibu {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* This fixes the bug where the text-align property of block-level elements is not recognized on iBooks
+ example: html markup would look like <p class="centered"><span class="ipadcenterfix">Centered Content</span></p> */
+span.ipadcenterfix {
+    text-align: center;
+}
+
+
+/*==IMAGES==*/
+img {
+    max-width: 100%;
+}
+.ferris-explain {
+    width: 100px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*==TABLES==*/
+table {
+    margin: 1.0em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr,
+th,
+td {
+    padding: 3px 20px;
+    border: 1px hsl(0, 0%, 95%) solid;
+    margin: 0;
+    vertical-align: baseline;
+}
+table thead {
+    background: rgb(204, 204, 204);
+}
+table tbody tr:nth-child(2n) {
+    background: hsl(0, 0%, 97%);
+}
+table thead th {
+    padding: 3px 20px;
+}
+table tbody tr td code {
+    display: inline;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    background: #f1f1f1;
+}
+
+/* Superscripted Footnote Text */
+
+.footnote {
+    vertical-align: super;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+
+/*==DROP CAPS==*/
+
+span.dropcap {
+    font-size: 300%;
+    font-weight: bold;
+    height: 1em;
+    float: left;
+    margin: 0.3em 0.125em -0.4em 0.1em;
+}
+
+
+/*==PULL QUOTE==*/
+
+div.pullquote {
+    margin: 2em 2em 0 2em;
+    text-align: left;
+}
+
+div.pullquote p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.pullquote hr {
+    width: 100%;
+    margin: 0;
+    height: 3px;
+    color: #2E8DE0;
+    background-color: #2E8DE0;
+    border: 0;
+}
+
+
+/*==BLOCK QUOTE==*/
+blockquote {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+div.blockquote {
+    margin: 1em 1.5em 0 1.5em;
+    text-align: left;
+    font-size: 0.9em;
 }
