@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 MDBOOK_VERSION=0.4.34
 MDBOOK_EPUB_VERSION=0.4.34
@@ -23,5 +24,5 @@ install_cargo_crate() {
   fi
 }
 
-install_cargo_crate mdbook $MDBOOK_VERSION '--no-default-features --features output'
+install_cargo_crate mdbook $MDBOOK_VERSION '--no-default-features'
 install_cargo_crate mdbook-epub $MDBOOK_EPUB_VERSION
