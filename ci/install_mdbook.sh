@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-MDBOOK_VERSION=0.4.34
-MDBOOK_EPUB_VERSION=0.4.34
+MDBOOK_VERSION=0.5.4
+MDBOOK_EPUB_VERSION=0.5.4
 
 is_cargo_crate_installed() {
   name=$1
